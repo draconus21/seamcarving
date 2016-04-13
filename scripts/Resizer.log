@@ -1,0 +1,16 @@
+INFO:root:Reading file: ../img/img1.jpg
+INFO:root:Removing 1 v seams
+INFO:root:Removed  1 v seams in -4.602406 s
+INFO:root:Removing 1 v seams
+INFO:root:Removed  1 v seams in -4.627640 s
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img1.jpg	(583, 875, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -469.658369 s (583, 775, 3)
+INFO:root:Image saved at ../img/img1-Rem-L1-a-slow-v.jpg
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -485.733338 s (583, 775, 3)
+INFO:root:Image saved at ../img/img1-Add-L1-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img2.jpg	(667, 1000, 3)
+INFO:root:Removing 100 v seams
