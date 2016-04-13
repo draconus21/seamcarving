@@ -14,3 +14,6 @@ INFO:root:Image saved at ../img/img1-Add-L1-a-slow-v.jpg
 INFO:root:=========================================
 INFO:root:Reading file: ../img/img2.jpg	(667, 1000, 3)
 INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -639.209850 s (667, 900, 3)
+INFO:root:Image saved at ../img/img2-Rem-L1-a-slow-v.jpg
+INFO:root:Removing 100 v seams
