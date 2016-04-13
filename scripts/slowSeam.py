@@ -302,7 +302,7 @@ if __name__=='__main__':
 		r = Resizer(IMG_NAME)
 		r.show(winName='orig')
 		t1 = time.clock()	
-		r.removeSeams(k=SEAM_K, seam=SEAM)
+		r.addSeams(k=SEAM_K, seam=SEAM)
 		t2 = time.clock()
 		print 'Added  ', SEAM_K, SEAM, 'seams-', IMG, ': ', (t2-t1)
 		r.show(winName=IMG+'-Add-L1-a-slow-'+SEAM+'.jpg', save=True)
