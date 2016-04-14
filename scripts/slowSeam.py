@@ -8,8 +8,8 @@ import time
 import logging
 from matplotlib import pyplot as plt
 
-IMG_ARR     = ['img1', 'img2', 'img3', 'img4']
-#IMG_ARR     = ['img1']
+#IMG_ARR     = ['img1', 'img2', 'img3', 'img4','img5', 'img6', 'img7','img8', 'img9', 'img11', 'img12', 'img13', 'img14' ]
+IMG_ARR     = ['img10']
 SEAM        = 'v'
 SEAM_K      = 100
 #IMG_NAME    = '../img/' + IMG + '.jpg'
@@ -46,12 +46,19 @@ class Resizer:
 			if i > tmp.shape[0]-1:
 				tmp[i, 5] = t
 		return tmp
-	
+
+		
 	def deltaX(self, avg):
 		return cv2.Sobel(self.raw.mean(axis=2), cv2.CV_8U, 1, 0, ksize=self.k)		
 	def deltaY(self, avg):
 		return cv2.Sobel(self.raw.mean(axis=2), cv2.CV_8U, 0, 1, ksize=self.k)
-
+	
+	'''
+	def deltaX(self, avg):
+		return (cv2.Sobel(self.raw, cv2.CV_8U, 1, 0, ksize=self.k) ** 2).mean(axis=2)		
+	def deltaY(self, avg):
+		return (cv2.Sobel(self.raw, cv2.CV_8U, 0, 1, ksize=self.k) ** 2).mean(axis=2)
+	'''	
 	def show(self, winName='image', img=None, save=False):
 		if img is None:
 			#print 'disp raw'
@@ -61,6 +68,7 @@ class Resizer:
 		if save == True:
 			cv2.imwrite(SAVE_DIR + winName, img)
 			logging.info('Image saved at %s%s', SAVE_DIR, winName)
+
 	@staticmethod
 	def normalize(img, l=0, r=255):
 		rangeNew = r-l+1
@@ -150,7 +158,7 @@ class Resizer:
 		self.popSeamE(seam='v', avg=avg)
 		self.popSeamE(seam='h', avg=avg)
 		
-	def getMinSeam(self, seamOri, avg=True):
+	def getMinSeam(self, seamOri, k=0, avg=True):
 		self.makeEnergyMap(avg)
 		self.seamHE = self.energy.copy()
 		self.seamVE = self.energy.copy()
@@ -174,7 +182,7 @@ class Resizer:
 			axis = None
 		else:
 			axis = 2
-		seam = np.argsort(seamE[-1], axis=0)[:1]
+		seam = np.argsort(seamE[-1], axis=0)[k:k+1]
 		seamStore = np.zeros([seamE.shape[0], seam.shape[0]])
 		## init seamStore for avg==False also
 		
@@ -223,7 +231,7 @@ class Resizer:
 		t0 = time.clock()
 		for s in range(k):
 			t1 = time.clock()
-			self.getMinSeam(seamOri=seam, avg=avg)
+			self.getMinSeam(seamOri=seam, k=k-s-1, avg=avg)
 			if seam == 'h':
 				if avg == True:
 					seamStore = self.hSeam.transpose(1, 0)		
@@ -238,7 +246,7 @@ class Resizer:
 			for i in range(seamStore.shape[0]):
 				raw[i, :seamStore[i, 0]]   = rawC[i, :seamStore[i, 0]]
 				raw[i, seamStore[i, 0]]    = 0.5* rawC[i, seamStore[i, 0]-1] + 0.5 * rawC[i, seamStore[i, 0]]
-				raw[i, seamStore[i, 0]+1]    = 0.5* rawC[i, seamStore[i, 0]+1] + 0.5 * rawC[i, seamStore[i, 0]]
+				raw[i, seamStore[i, 0]+1]  = 0.5* rawC[i, seamStore[i, 0]+1] + 0.5 * rawC[i, seamStore[i, 0]]
 				raw[i, seamStore[i, 0]+2:] = rawC[i, seamStore[i, 0]+1:]
 					
 			#raw = raw[:, :-1, :]
@@ -250,7 +258,7 @@ class Resizer:
 			t2 = time.clock()
 			print 'Added seam:', s, 'in', (t2-t1) #, np.max(self.raw), np.min(self.raw), type(self.raw)
 		tf = time.clock()
-		logging.info('Added  %d %s seams in %f s %s', k, seam, (t0-tf), self.raw.shape)
+		logging.info('Added  %d %s seams in %f s %s', k, seam, (tf-t0), self.raw.shape)
 		return raw.astype(np.uint8)
 	
 	def removeSeams(self, k, seam, avg=True):
@@ -281,31 +289,49 @@ class Resizer:
 			t2 = time.clock()
 			print 'Removed seam:', s, 'in', (t2-t1)
 		tf = time.clock()
-		logging.info('Removed  %d %s seams in %f s %s', k, seam, (t0-tf), self.raw.shape)
+		logging.info('Removed  %d %s seams in %f s %s', k, seam, (tf-t0), self.raw.shape)
 		return raw.astype(np.uint8)
 		
+	def amplify(self, k, avg=True):
+		[n, m, c] = self.raw.shape
+		print 'Amplifying image'
+		print self.raw.shape
+		self.raw = cv2.resize(self.raw, dsize=(int(m*k), int(n*k)))
+		[self.n, self.m, self.channels] = self.raw.shape	
+
+		k1 = int(m*k) - m
+		print 'v', self.raw.shape, m, m*k, k1
+		self.removeSeams(seam='v', k=k1)
+		
+		k1 = int(n*k) - n
+		print 'h', self.raw.shape, n, n*k, k1 
+		self.removeSeams(seam='h', k=k1)
+
+		r.show()
+
 if __name__=='__main__':
 	logging.basicConfig(filename='Resizer.log',level=logging.INFO)		
 	
 	for IMG in IMG_ARR:
 		IMG_NAME = '../img/' + IMG + '.jpg' 
-
+		
 		r = Resizer(IMG_NAME)
 		logging.info('Reading file: %s\t%s', IMG_NAME, r.raw.shape)
 		#r.show(winName='orig')
 		t1 = time.clock()	
-		r.removeSeams(k=SEAM_K, seam=SEAM)
+		r.removeSeams(k=100, seam=SEAM)
 		t2 = time.clock()
-		r.show(winName=IMG+'-Rem-L1-a-slow-'+SEAM+'.jpg', save=True)
-		print 'Removed', SEAM_K, SEAM, 'seams-', IMG, ': ', (t2-t1)
-
+		r.show(winName=IMG+'-Rem-L1v1-a-slow-'+SEAM+'.jpg', save=True)
+		#print 'Removed', SEAM_K, SEAM, 'seams-', IMG, ': ', (t2-t1)
+		'''
 		r = Resizer(IMG_NAME)
 		r.show(winName='orig')
 		t1 = time.clock()	
-		r.addSeams(k=SEAM_K, seam=SEAM)
+		r.addSeams(k=50, seam=SEAM)
 		t2 = time.clock()
 		print 'Added  ', SEAM_K, SEAM, 'seams-', IMG, ': ', (t2-t1)
 		r.show(winName=IMG+'-Add-L1-a-slow-'+SEAM+'.jpg', save=True)
+		'''
 		logging.info('=========================================')
 	cv2.waitKey(0)
 

@@ -1,0 +1,582 @@
+INFO:root:Reading file: ../img/img1.jpg	(583, 875, 3)
+INFO:root:Reading file: ../img/img1.jpg	(583, 875, 3)
+INFO:root:Reading file: ../img/img1.jpg	(583, 875, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img1.jpg	(583, 875, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img1.jpg	(583, 875, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img1.jpg	(583, 875, 3)
+INFO:root:Image saved at ../img/img1-Rem-L1v1-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 11.019592 s (583, 775, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img1.jpg	(583, 875, 3)
+INFO:root:Image saved at ../img/img1-Rem-L1v1-a-fast-h.jpg
+INFO:root:Removed  100 h seams in 9.824604 s (483, 875, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img1.jpg	(583, 875, 3)
+INFO:root:Image saved at ../img/img1-Rem-L1v1-a-fast-h.jpg
+INFO:root:Removed  100 h seams in 8.874921 s (483, 875, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img1.jpg	(583, 875, 3)
+INFO:root:Image saved at ../img/img1-Rem-L1v1-a-fast-h.jpg
+INFO:root:Removed  100 h seams in 8.761566 s (583, 875, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img10.jpg	(640, 427, 3)
+INFO:root:Image saved at ../img/img10-Rem-L1v1-a-fast-h.jpg
+INFO:root:Removed  100 h seams in 4.869509 s (640, 427, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img1.jpg	(583, 875, 3)
+INFO:root:Image saved at ../img/img1-Rem-L1v1-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 8.601591 s (583, 875, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img2.jpg	(667, 1000, 3)
+INFO:root:Image saved at ../img/img2-Rem-L1v1-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 11.420607 s (667, 1000, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img3.jpg	(533, 800, 3)
+INFO:root:Image saved at ../img/img3-Rem-L1v1-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 7.475376 s (533, 800, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img4.jpg	(533, 800, 3)
+INFO:root:Image saved at ../img/img4-Rem-L1v1-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 7.676160 s (533, 800, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img5.jpg	(418, 640, 3)
+INFO:root:Image saved at ../img/img5-Rem-L1v1-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 4.928403 s (418, 640, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img6.jpg	(340, 640, 3)
+INFO:root:Reading file: ../img/img1.jpg	(583, 875, 3)
+INFO:root:Image saved at ../img/img1-Rem-L1v1-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 8.578460 s (583, 775, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img2.jpg	(667, 1000, 3)
+INFO:root:Image saved at ../img/img2-Rem-L1v1-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 11.328000 s (667, 900, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img3.jpg	(533, 800, 3)
+INFO:root:Image saved at ../img/img3-Rem-L1v1-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 7.435256 s (533, 700, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img4.jpg	(533, 800, 3)
+INFO:root:Image saved at ../img/img4-Rem-L1v1-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 7.434010 s (533, 700, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img5.jpg	(418, 640, 3)
+INFO:root:Image saved at ../img/img5-Rem-L1v1-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 4.688974 s (418, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img6.jpg	(340, 640, 3)
+INFO:root:Image saved at ../img/img6-Rem-L1v1-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 3.799032 s (340, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img7.jpg	(426, 640, 3)
+INFO:root:Image saved at ../img/img7-Rem-L1v1-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 4.859554 s (426, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img8.jpg	(427, 640, 3)
+INFO:root:Image saved at ../img/img8-Rem-L1v1-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 4.868699 s (427, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img9.jpg	(418, 640, 3)
+INFO:root:Image saved at ../img/img9-Rem-L1v1-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 4.720856 s (418, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img11.jpg	(427, 640, 3)
+INFO:root:Image saved at ../img/img11-Rem-L1v1-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 4.890835 s (427, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img12.jpg	(432, 640, 3)
+INFO:root:Image saved at ../img/img12-Rem-L1v1-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 4.963839 s (432, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img13.jpg	(480, 640, 3)
+INFO:root:Image saved at ../img/img13-Rem-L1v1-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 5.475132 s (480, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img14.jpg	(427, 640, 3)
+INFO:root:Image saved at ../img/img14-Rem-L1v1-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 4.850871 s (427, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img1.jpg	(583, 875, 3)
+INFO:root:Image saved at ../img/img1-Rem-L1v2-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 6.892267 s (583, 775, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img2.jpg	(667, 1000, 3)
+INFO:root:Image saved at ../img/img2-Rem-L1v2-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 8.943176 s (667, 900, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img3.jpg	(533, 800, 3)
+INFO:root:Image saved at ../img/img3-Rem-L1v2-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 5.783232 s (533, 700, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img4.jpg	(533, 800, 3)
+INFO:root:Image saved at ../img/img4-Rem-L1v2-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 5.780173 s (533, 700, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img5.jpg	(418, 640, 3)
+INFO:root:Image saved at ../img/img5-Rem-L1v2-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 3.656648 s (418, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img6.jpg	(340, 640, 3)
+INFO:root:Image saved at ../img/img6-Rem-L1v2-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 2.960846 s (340, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img7.jpg	(426, 640, 3)
+INFO:root:Image saved at ../img/img7-Rem-L1v2-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 3.711153 s (426, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img8.jpg	(427, 640, 3)
+INFO:root:Image saved at ../img/img8-Rem-L1v2-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 3.766626 s (427, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img9.jpg	(418, 640, 3)
+INFO:root:Image saved at ../img/img9-Rem-L1v2-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 3.660381 s (418, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img11.jpg	(427, 640, 3)
+INFO:root:Image saved at ../img/img11-Rem-L1v2-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 3.775953 s (427, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img12.jpg	(432, 640, 3)
+INFO:root:Image saved at ../img/img12-Rem-L1v2-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 3.790864 s (432, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img13.jpg	(480, 640, 3)
+INFO:root:Image saved at ../img/img13-Rem-L1v2-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 4.236410 s (480, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img14.jpg	(427, 640, 3)
+INFO:root:Image saved at ../img/img14-Rem-L1v2-a-fast-v.jpg
+INFO:root:Removed  100 v seams in 3.733392 s (427, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img1.jpg	(583, 875, 3)
+INFO:root:Image saved at ../img/img1-Energy-L1v2.jpg
+INFO:root:Image saved at ../img/img1-HEnergy-L1v2.jpg
+INFO:root:Image saved at ../img/img1-VEnergy-L1v2.jpg
+INFO:root:Removed  100 v seams in 6.465108 s (583, 875, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img2.jpg	(667, 1000, 3)
+INFO:root:Image saved at ../img/img2-Energy-L1v2.jpg
+INFO:root:Image saved at ../img/img2-HEnergy-L1v2.jpg
+INFO:root:Image saved at ../img/img2-VEnergy-L1v2.jpg
+INFO:root:Removed  100 v seams in 8.503682 s (667, 1000, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img3.jpg	(533, 800, 3)
+INFO:root:Image saved at ../img/img3-Energy-L1v2.jpg
+INFO:root:Image saved at ../img/img3-HEnergy-L1v2.jpg
+INFO:root:Image saved at ../img/img3-VEnergy-L1v2.jpg
+INFO:root:Removed  100 v seams in 5.465951 s (533, 800, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img4.jpg	(533, 800, 3)
+INFO:root:Image saved at ../img/img4-Energy-L1v2.jpg
+INFO:root:Image saved at ../img/img4-HEnergy-L1v2.jpg
+INFO:root:Image saved at ../img/img4-VEnergy-L1v2.jpg
+INFO:root:Removed  100 v seams in 5.461241 s (533, 800, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img5.jpg	(418, 640, 3)
+INFO:root:Image saved at ../img/img5-Energy-L1v2.jpg
+INFO:root:Image saved at ../img/img5-HEnergy-L1v2.jpg
+INFO:root:Image saved at ../img/img5-VEnergy-L1v2.jpg
+INFO:root:Removed  100 v seams in 3.465012 s (418, 640, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img6.jpg	(340, 640, 3)
+INFO:root:Image saved at ../img/img6-Energy-L1v2.jpg
+INFO:root:Image saved at ../img/img6-HEnergy-L1v2.jpg
+INFO:root:Image saved at ../img/img6-VEnergy-L1v2.jpg
+INFO:root:Removed  100 v seams in 2.777751 s (340, 640, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img7.jpg	(426, 640, 3)
+INFO:root:Image saved at ../img/img7-Energy-L1v2.jpg
+INFO:root:Image saved at ../img/img7-HEnergy-L1v2.jpg
+INFO:root:Image saved at ../img/img7-VEnergy-L1v2.jpg
+INFO:root:Removed  100 v seams in 3.476354 s (426, 640, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img8.jpg	(427, 640, 3)
+INFO:root:Image saved at ../img/img8-Energy-L1v2.jpg
+INFO:root:Image saved at ../img/img8-HEnergy-L1v2.jpg
+INFO:root:Image saved at ../img/img8-VEnergy-L1v2.jpg
+INFO:root:Removed  100 v seams in 3.484666 s (427, 640, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img9.jpg	(418, 640, 3)
+INFO:root:Image saved at ../img/img9-Energy-L1v2.jpg
+INFO:root:Image saved at ../img/img9-HEnergy-L1v2.jpg
+INFO:root:Image saved at ../img/img9-VEnergy-L1v2.jpg
+INFO:root:Removed  100 v seams in 3.402668 s (418, 640, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img11.jpg	(427, 640, 3)
+INFO:root:Image saved at ../img/img11-Energy-L1v2.jpg
+INFO:root:Image saved at ../img/img11-HEnergy-L1v2.jpg
+INFO:root:Image saved at ../img/img11-VEnergy-L1v2.jpg
+INFO:root:Removed  100 v seams in 3.487874 s (427, 640, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img12.jpg	(432, 640, 3)
+INFO:root:Image saved at ../img/img12-Energy-L1v2.jpg
+INFO:root:Image saved at ../img/img12-HEnergy-L1v2.jpg
+INFO:root:Image saved at ../img/img12-VEnergy-L1v2.jpg
+INFO:root:Removed  100 v seams in 3.520594 s (432, 640, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img13.jpg	(480, 640, 3)
+INFO:root:Image saved at ../img/img13-Energy-L1v2.jpg
+INFO:root:Image saved at ../img/img13-HEnergy-L1v2.jpg
+INFO:root:Image saved at ../img/img13-VEnergy-L1v2.jpg
+INFO:root:Removed  100 v seams in 3.934322 s (480, 640, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img14.jpg	(427, 640, 3)
+INFO:root:Image saved at ../img/img14-Energy-L1v2.jpg
+INFO:root:Image saved at ../img/img14-HEnergy-L1v2.jpg
+INFO:root:Image saved at ../img/img14-VEnergy-L1v2.jpg
+INFO:root:Removed  100 v seams in 3.469490 s (427, 640, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img1.jpg	(583, 875, 3)
+INFO:root:Image saved at ../img/img1-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img1-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img1-VEnergy-L1v1.jpg
+INFO:root:Removed  100 v seams in 8.534993 s (583, 875, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img2.jpg	(667, 1000, 3)
+INFO:root:Image saved at ../img/img2-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img2-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img2-VEnergy-L1v1.jpg
+INFO:root:Removed  100 v seams in 11.232499 s (667, 1000, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img3.jpg	(533, 800, 3)
+INFO:root:Image saved at ../img/img3-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img3-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img3-VEnergy-L1v1.jpg
+INFO:root:Removed  100 v seams in 7.162327 s (533, 800, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img4.jpg	(533, 800, 3)
+INFO:root:Image saved at ../img/img4-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img4-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img4-VEnergy-L1v1.jpg
+INFO:root:Removed  100 v seams in 7.122438 s (533, 800, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img5.jpg	(418, 640, 3)
+INFO:root:Image saved at ../img/img5-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img5-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img5-VEnergy-L1v1.jpg
+INFO:root:Removed  100 v seams in 4.461163 s (418, 640, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img6.jpg	(340, 640, 3)
+INFO:root:Image saved at ../img/img6-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img6-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img6-VEnergy-L1v1.jpg
+INFO:root:Removed  100 v seams in 3.665355 s (340, 640, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img7.jpg	(426, 640, 3)
+INFO:root:Image saved at ../img/img7-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img7-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img7-VEnergy-L1v1.jpg
+INFO:root:Removed  100 v seams in 4.576249 s (426, 640, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img8.jpg	(427, 640, 3)
+INFO:root:Image saved at ../img/img8-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img8-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img8-VEnergy-L1v1.jpg
+INFO:root:Removed  100 v seams in 4.545185 s (427, 640, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img9.jpg	(418, 640, 3)
+INFO:root:Image saved at ../img/img9-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img9-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img9-VEnergy-L1v1.jpg
+INFO:root:Removed  100 v seams in 4.501588 s (418, 640, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img11.jpg	(427, 640, 3)
+INFO:root:Image saved at ../img/img11-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img11-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img11-VEnergy-L1v1.jpg
+INFO:root:Removed  100 v seams in 4.590630 s (427, 640, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img12.jpg	(432, 640, 3)
+INFO:root:Image saved at ../img/img12-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img12-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img12-VEnergy-L1v1.jpg
+INFO:root:Removed  100 v seams in 4.634865 s (432, 640, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img13.jpg	(480, 640, 3)
+INFO:root:Image saved at ../img/img13-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img13-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img13-VEnergy-L1v1.jpg
+INFO:root:Removed  100 v seams in 5.118059 s (480, 640, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img14.jpg	(427, 640, 3)
+INFO:root:Image saved at ../img/img14-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img14-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img14-VEnergy-L1v1.jpg
+INFO:root:Removed  100 v seams in 4.550094 s (427, 640, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img1.jpg	(583, 875, 3)
+INFO:root:Image saved at ../img/img1-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img1-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img1-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img1Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 8.804549 s (583, 775, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img2.jpg	(667, 1000, 3)
+INFO:root:Image saved at ../img/img2-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img2-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img2-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img2Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 11.526360 s (667, 900, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img3.jpg	(533, 800, 3)
+INFO:root:Image saved at ../img/img3-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img3-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img3-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img3Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 7.412056 s (533, 700, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img4.jpg	(533, 800, 3)
+INFO:root:Image saved at ../img/img4-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img4-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img4-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img4Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 7.406303 s (533, 700, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img5.jpg	(418, 640, 3)
+INFO:root:Image saved at ../img/img5-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img5-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img5-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img5Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 4.695500 s (418, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img6.jpg	(340, 640, 3)
+INFO:root:Image saved at ../img/img6-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img6-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img6-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img6Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 3.796577 s (340, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img7.jpg	(426, 640, 3)
+INFO:root:Image saved at ../img/img7-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img7-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img7-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img7Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 4.885988 s (426, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img8.jpg	(427, 640, 3)
+INFO:root:Image saved at ../img/img8-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img8-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img8-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img8Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 4.779003 s (427, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img9.jpg	(418, 640, 3)
+INFO:root:Image saved at ../img/img9-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img9-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img9-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img9Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 4.669353 s (418, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img11.jpg	(427, 640, 3)
+INFO:root:Image saved at ../img/img11-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img11-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img11-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img11Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 4.781293 s (427, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img12.jpg	(432, 640, 3)
+INFO:root:Image saved at ../img/img12-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img12-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img12-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img12Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 4.848837 s (432, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img13.jpg	(480, 640, 3)
+INFO:root:Image saved at ../img/img13-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img13-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img13-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img13Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 5.357901 s (480, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img14.jpg	(427, 640, 3)
+INFO:root:Image saved at ../img/img14-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img14-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img14-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img14Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 4.779551 s (427, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img1.jpg	(583, 875, 3)
+INFO:root:Image saved at ../img/img1-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img1-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img1-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img1Rem-L1-fast.jpg
+INFO:root:Removed  100 v seams in 9.360739 s (583, 775, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img2.jpg	(667, 1000, 3)
+INFO:root:Image saved at ../img/img2-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img2-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img2-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img2Rem-L1-fast.jpg
+INFO:root:Removed  100 v seams in 12.267199 s (667, 900, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img3.jpg	(533, 800, 3)
+INFO:root:Image saved at ../img/img3-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img3-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img3-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img3Rem-L1-fast.jpg
+INFO:root:Removed  100 v seams in 7.894295 s (533, 700, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img4.jpg	(533, 800, 3)
+INFO:root:Image saved at ../img/img4-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img4-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img4-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img4Rem-L1-fast.jpg
+INFO:root:Removed  100 v seams in 7.873003 s (533, 700, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img5.jpg	(418, 640, 3)
+INFO:root:Image saved at ../img/img5-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img5-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img5-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img5Rem-L1-fast.jpg
+INFO:root:Removed  100 v seams in 4.994678 s (418, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img6.jpg	(340, 640, 3)
+INFO:root:Image saved at ../img/img6-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img6-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img6-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img6Rem-L1-fast.jpg
+INFO:root:Removed  100 v seams in 4.044463 s (340, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img7.jpg	(426, 640, 3)
+INFO:root:Image saved at ../img/img7-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img7-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img7-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img7Rem-L1-fast.jpg
+INFO:root:Removed  100 v seams in 5.082436 s (426, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img8.jpg	(427, 640, 3)
+INFO:root:Image saved at ../img/img8-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img8-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img8-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img8Rem-L1-fast.jpg
+INFO:root:Removed  100 v seams in 5.084119 s (427, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img9.jpg	(418, 640, 3)
+INFO:root:Image saved at ../img/img9-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img9-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img9-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img9Rem-L1-fast.jpg
+INFO:root:Removed  100 v seams in 4.970879 s (418, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img11.jpg	(427, 640, 3)
+INFO:root:Image saved at ../img/img11-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img11-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img11-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img11Rem-L1-fast.jpg
+INFO:root:Removed  100 v seams in 5.091822 s (427, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img12.jpg	(432, 640, 3)
+INFO:root:Image saved at ../img/img12-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img12-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img12-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img12Rem-L1-fast.jpg
+INFO:root:Removed  100 v seams in 5.156675 s (432, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img13.jpg	(480, 640, 3)
+INFO:root:Image saved at ../img/img13-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img13-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img13-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img13Rem-L1-fast.jpg
+INFO:root:Removed  100 v seams in 5.733376 s (480, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img14.jpg	(427, 640, 3)
+INFO:root:Image saved at ../img/img14-Energy-L1v1.jpg
+INFO:root:Image saved at ../img/img14-HEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img14-VEnergy-L1v1.jpg
+INFO:root:Image saved at ../img/img14Rem-L1-fast.jpg
+INFO:root:Removed  100 v seams in 5.089041 s (427, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img1.jpg	(583, 875, 3)
+INFO:root:Image saved at ../img/img1-Energy-L2.jpg
+INFO:root:Image saved at ../img/img1-HEnergy-L2.jpg
+INFO:root:Image saved at ../img/img1-VEnergy-L2.jpg
+INFO:root:Image saved at ../img/img1Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 9.296883 s (583, 775, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img2.jpg	(667, 1000, 3)
+INFO:root:Image saved at ../img/img2-Energy-L2.jpg
+INFO:root:Image saved at ../img/img2-HEnergy-L2.jpg
+INFO:root:Image saved at ../img/img2-VEnergy-L2.jpg
+INFO:root:Image saved at ../img/img2Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 11.978301 s (667, 900, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img3.jpg	(533, 800, 3)
+INFO:root:Image saved at ../img/img3-Energy-L2.jpg
+INFO:root:Image saved at ../img/img3-HEnergy-L2.jpg
+INFO:root:Image saved at ../img/img3-VEnergy-L2.jpg
+INFO:root:Image saved at ../img/img3Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 7.736046 s (533, 700, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img4.jpg	(533, 800, 3)
+INFO:root:Image saved at ../img/img4-Energy-L2.jpg
+INFO:root:Image saved at ../img/img4-HEnergy-L2.jpg
+INFO:root:Image saved at ../img/img4-VEnergy-L2.jpg
+INFO:root:Image saved at ../img/img4Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 7.781750 s (533, 700, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img5.jpg	(418, 640, 3)
+INFO:root:Image saved at ../img/img5-Energy-L2.jpg
+INFO:root:Image saved at ../img/img5-HEnergy-L2.jpg
+INFO:root:Image saved at ../img/img5-VEnergy-L2.jpg
+INFO:root:Image saved at ../img/img5Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 4.886423 s (418, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img6.jpg	(340, 640, 3)
+INFO:root:Image saved at ../img/img6-Energy-L2.jpg
+INFO:root:Image saved at ../img/img6-HEnergy-L2.jpg
+INFO:root:Image saved at ../img/img6-VEnergy-L2.jpg
+INFO:root:Image saved at ../img/img6Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 3.995363 s (340, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img7.jpg	(426, 640, 3)
+INFO:root:Image saved at ../img/img7-Energy-L2.jpg
+INFO:root:Image saved at ../img/img7-HEnergy-L2.jpg
+INFO:root:Image saved at ../img/img7-VEnergy-L2.jpg
+INFO:root:Image saved at ../img/img7Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 5.118256 s (426, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img8.jpg	(427, 640, 3)
+INFO:root:Image saved at ../img/img8-Energy-L2.jpg
+INFO:root:Image saved at ../img/img8-HEnergy-L2.jpg
+INFO:root:Image saved at ../img/img8-VEnergy-L2.jpg
+INFO:root:Image saved at ../img/img8Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 5.199644 s (427, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img9.jpg	(418, 640, 3)
+INFO:root:Image saved at ../img/img9-Energy-L2.jpg
+INFO:root:Image saved at ../img/img9-HEnergy-L2.jpg
+INFO:root:Image saved at ../img/img9-VEnergy-L2.jpg
+INFO:root:Image saved at ../img/img9Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 5.136539 s (418, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img11.jpg	(427, 640, 3)
+INFO:root:Image saved at ../img/img11-Energy-L2.jpg
+INFO:root:Image saved at ../img/img11-HEnergy-L2.jpg
+INFO:root:Image saved at ../img/img11-VEnergy-L2.jpg
+INFO:root:Image saved at ../img/img11Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 5.167959 s (427, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img12.jpg	(432, 640, 3)
+INFO:root:Image saved at ../img/img12-Energy-L2.jpg
+INFO:root:Image saved at ../img/img12-HEnergy-L2.jpg
+INFO:root:Image saved at ../img/img12-VEnergy-L2.jpg
+INFO:root:Image saved at ../img/img12Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 5.237179 s (432, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img13.jpg	(480, 640, 3)
+INFO:root:Image saved at ../img/img13-Energy-L2.jpg
+INFO:root:Image saved at ../img/img13-HEnergy-L2.jpg
+INFO:root:Image saved at ../img/img13-VEnergy-L2.jpg
+INFO:root:Image saved at ../img/img13Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 5.937813 s (480, 540, 3)
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img14.jpg	(427, 640, 3)
+INFO:root:Image saved at ../img/img14-Energy-L2.jpg
+INFO:root:Image saved at ../img/img14-HEnergy-L2.jpg
+INFO:root:Image saved at ../img/img14-VEnergy-L2.jpg
+INFO:root:Image saved at ../img/img14Rem-L2-fast.jpg
+INFO:root:Removed  100 v seams in 5.174414 s (427, 540, 3)
+INFO:root:=========================================

@@ -5,14 +5,19 @@ from skimage.feature import hog
 from skimage import exposure
 import cPickle as cpk
 import time
+import logging
 from matplotlib import pyplot as plt
 
-IMG         = 'img1'
-IMG_NAME    = '../img/' + IMG + '.jpg'
+IMG_ARR     = ['img1', 'img2', 'img3', 'img4','img5', 'img6', 'img7','img8', 'img9', 'img11', 'img12', 'img13', 'img14' ]
+#IMG_ARR     = ['img10']
+SEAM        = 'v'
+SEAM_K      = 100
+#IMG_NAME    = '../img/' + IMG + '.jpg'
 SAVE_DIR    = '../img/'
 SEAMHE_FILE = '../data/seamHE'
 SEAMVE_FILE = '../data/seamVE'
 TRACKV_FILE = '../data/vTrack'
+TRACKH_FILE = '../data/hTrack'
 TRACKH_FILE = '../data/hTrack'
 
 class Resizer:
@@ -22,7 +27,7 @@ class Resizer:
 			self.raw = cv2.imread(imgFileName)
 		else:
 			self.raw = imgFileName
-		self.raw = self.initTestImg()
+		#self.raw = self.initTestImg()
 		[self.n, self.m, self.channels] = self.raw.shape
 		self.k = 5
 		self.energy = []
@@ -42,20 +47,33 @@ class Resizer:
 			if i > tmp.shape[0]-1:
 				tmp[i, 5] = t
 		return tmp
-	
+		
+	def deltaX(self, avg):
+		return (cv2.Sobel(self.raw.mean(axis=2), cv2.CV_8U, 1, 0, ksize=self.k)) ** 2	
+	def deltaY(self, avg):
+		return (cv2.Sobel(self.raw.mean(axis=2), cv2.CV_8U, 0, 1, ksize=self.k)) ** 2
+	'''
 	def deltaX(self, avg):
 		return cv2.Sobel(self.raw.mean(axis=2), cv2.CV_8U, 1, 0, ksize=self.k)		
 	def deltaY(self, avg):
 		return cv2.Sobel(self.raw.mean(axis=2), cv2.CV_8U, 0, 1, ksize=self.k)
-
+	'''
+	'''
+	def deltaX(self, avg):
+		return (cv2.Sobel(self.raw, cv2.CV_8U, 1, 0, ksize=self.k) ** 2).mean(axis=2)		
+	def deltaY(self, avg):
+		return (cv2.Sobel(self.raw, cv2.CV_8U, 0, 1, ksize=self.k) ** 2).mean(axis=2)
+	'''
 	def show(self, winName='image', img=None, save=False):
 		if img is None:
-			print 'disp raw'
+			#print 'disp raw'
 			img = self.raw
-		cv2.namedWindow(winName, cv2.CV_WINDOW_AUTOSIZE)
-		cv2.imshow(winName, img)
+		#cv2.namedWindow(winName, cv2.CV_WINDOW_AUTOSIZE)
+		#cv2.imshow(winName, img)
 		if save == True:
 			cv2.imwrite(SAVE_DIR + winName, img)
+			logging.info('Image saved at %s%s', SAVE_DIR, winName)
+
 	@staticmethod
 	def normalize(img, l=0, r=255):
 		rangeNew = r-l+1
@@ -138,14 +156,14 @@ class Resizer:
 
 		if seam == 'h':
 			self.seamHE = Resizer.normalize(self.seamHE).astype(np.uint8)
-			cpk.dump(self.seamHE, open(SEAMHE_FILE, 'wb'))
-			cpk.dump(self.hTrack, open(TRACKH_FILE, 'wb'))
-			print 'seamHE written to', SEAMHE_FILE
+		#	cpk.dump(self.seamHE, open(SEAMHE_FILE, 'wb'))
+		#	cpk.dump(self.hTrack, open(TRACKH_FILE, 'wb'))
+		#	print 'seamHE written to', SEAMHE_FILE
 		else:
 			self.seamVE = Resizer.normalize(self.seamVE).astype(np.uint8)
-			cpk.dump(self.seamVE, open(SEAMVE_FILE, 'wb'))
-			cpk.dump(self.vTrack, open(TRACKV_FILE, 'wb'))
-			print 'seamVE written to', SEAMVE_FILE
+		#	cpk.dump(self.seamVE, open(SEAMVE_FILE, 'wb'))
+		#	cpk.dump(self.vTrack, open(TRACKV_FILE, 'wb'))
+		#	print 'seamVE written to', SEAMVE_FILE
 
 	def makeSeamEMap(self, avg=True):
 		self.makeEnergyMap(avg)
@@ -214,7 +232,6 @@ class Resizer:
 			for j in range(seamStore.shape[0]):
 				raw[j, seamStore[j, i]] = [0, 255, 0]
 				tt[j, seamStore[j, i]]  = 11
-		print tt.astype(np.int)
 				
 		if seam == 'h':
 			return raw.transpose(1, 0, 2)		
@@ -236,42 +253,18 @@ class Resizer:
 		[rows, cols, channels] = raw.shape
 		imgSize = rows * cols
 
-		#raw = raw.ravel(order='F')
-		toDelete = []
-		
-		#skip = 0
-		copyImg = np.zeros([rows, cols-k, channels])
 		rawC = raw.copy()
-		raw = np.zeros([raw.shape[0], raw.shape[1]-k, raw.shape[3]])
+		#raw = np.zeros([raw.shape[0], raw.shape[1]-k, raw.shape[3]])
 		kk   = 0
-		for i in range(rawC.shape[0]):
-			
-			raw[i, seamStore[i, kj]:] = raw[i, seamStore[i, kj]+1:]
-			for j in range(rawC.shape[1]):
-				if not np.any(seamStore[i] == j):
-					raw[i, kj] = rawC[i, j]
-					kj += 1
-		print raw.shape			
+		for kj in range(seamStore.shape[1]):
+			for i in range(raw.shape[0]):
+				raw[i, seamStore[i, kj]:-1] = raw[i, seamStore[i, kj]+1:]
 		
-		for i in range(seamStore.shape[1]):
-		#	print i, seamStore[-1, i]
-			for j in range(seamStore.shape[0]):
-				start = int(seamStore[j, i])-0
-				#if j==0:
-				#	print type(seamStore[j, i]), seamStore[j, i]
-				for col in range(cols-start-1):
-					raw[j, start+col] = raw[j, start+col+1]
-		
-		#raw = rawC#[:, :-k, :]
-		
-		#raw = np.delete(raw, toDelete)
-		#raw = raw.reshape(rows, cols-k, channels)
-		#raw = raw[:, :-k, :]
-		print raw.shape
+		raw = raw[:, :-k, :]
 		if seam == 'h':
 			raw = raw.transpose(1, 0, 2)	
 
-		return raw.astype(np.uint8)
+		self.raw = raw.astype(np.uint8)
 		
 	def overlaySeams2(self, k, seam, avg=True):
 		if seam == 'h':
@@ -295,7 +288,6 @@ class Resizer:
 					elif minCol == 0:
 						minCol += np.argmin([seamE[-i-2, minCol], seamE[-i-2, minCol+1]]) + 1
 		#print 'o2'
-		print
 		tmp = seamE.copy()
 		tmp[tmp != 400] = 0
 		tmp[tmp == 400] = 22
@@ -359,6 +351,40 @@ class Resizer:
 		self.show(img=hog_image)
 	'''
 if __name__=='__main__':
+	logging.basicConfig(filename='Resizer-fast.log',level=logging.INFO)		
+	
+	for IMG in IMG_ARR:
+		IMG_NAME = '../img/' + IMG + '.jpg' 
+		
+		r = Resizer(IMG_NAME)
+		logging.info('Reading file: %s\t%s', IMG_NAME, r.raw.shape)
+		print 'Processing', IMG_NAME
+		#r.show(winName='orig')
+		t1 = time.clock()	
+		r.makeSeamEMap()
+		#r.show(winName='energy', img=r.seamVE)
+		r.getMinKSeams(k=SEAM_K, seamOri=SEAM)
+		r.removeSeams(k=100, seam=SEAM)
+		t2 = time.clock()
+		r.show(winName=IMG+'-Energy-L2.jpg', img=r.energy, save=True)
+		r.show(winName=IMG+'-HEnergy-L2.jpg', img=r.seamHE, save=True)
+		r.show(winName=IMG+'-VEnergy-L2.jpg', img=r.seamVE, save=True)
+		r.show(winName=IMG+'Rem-L2-fast.jpg', save=True)
+		logging.info('Removed  %d %s seams in %f s %s', SEAM_K, SEAM, (t2-t1), r.raw.shape)
+		#print 'Removed', SEAM_K, SEAM, 'seams-', IMG, ': ', (t2-t1)
+		'''
+		r = Resizer(IMG_NAME)
+		r.show(winName='orig')
+		t1 = time.clock()	
+		r.addSeams(k=50, seam=SEAM)
+		t2 = time.clock()
+		print 'Added  ', SEAM_K, SEAM, 'seams-', IMG, ': ', (t2-t1)
+		r.show(winName=IMG+'-Add-L1-a-slow-'+SEAM+'.jpg', save=True)
+		'''
+		logging.info('=========================================')
+	cv2.waitKey(0)
+'''
+if __name__=='__main__':
 	r = Resizer(IMG_NAME)
 	#r.hoG()
 	r.makeSeamEMap()
@@ -377,30 +403,6 @@ if __name__=='__main__':
 	#img = r.removeSeams(k=100, seam='v')
 	#r.show(winName='cropv', img=img)
 	#cv2.imwrite('img1.jpg', img)
-	'''r = Resizer(img.copy())
-	r.makeSeamEMap()
-	r.getMinKSeams(k=200, seamOri='h')
-	img = r.removeSeams(k=200, seam='h')
-	r.show(winName='cropvh', img=img)
-	#r.show(winName='seamOverlay', img=r.overlaySeams(k=2, seam='v'))
-	#r.makeEnergyMap(True)
-	#r.vTrack = np.zeros(r.energy.shape)
-	#r.seamVE = r.energy.copy()
-	#print r.getSeamE(210, 100, seam='v', avg=True)
-
-	#print np.max(r.deltaY(avg=True))
-	#print np.min(r.deltaY(avg=True))
-	#for i in range(r.seamVE.shape[2]):
-	#r.show(winName='img_' + str(i), img=r.seamVE[:, :, i])	
-	'''
 	cv2.waitKey(0)
-	
-
-'''
-move inside Resizer
-
-
-
-
 
 '''

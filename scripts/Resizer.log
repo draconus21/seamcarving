@@ -8,12 +8,186 @@ INFO:root:Reading file: ../img/img1.jpg	(583, 875, 3)
 INFO:root:Removing 100 v seams
 INFO:root:Removed  100 v seams in -469.658369 s (583, 775, 3)
 INFO:root:Image saved at ../img/img1-Rem-L1-a-slow-v.jpg
-INFO:root:Removing 100 v seams
-INFO:root:Removed  100 v seams in -485.733338 s (583, 775, 3)
-INFO:root:Image saved at ../img/img1-Add-L1-a-slow-v.jpg
 INFO:root:=========================================
 INFO:root:Reading file: ../img/img2.jpg	(667, 1000, 3)
 INFO:root:Removing 100 v seams
 INFO:root:Removed  100 v seams in -639.209850 s (667, 900, 3)
 INFO:root:Image saved at ../img/img2-Rem-L1-a-slow-v.jpg
+INFO:root:=========================================
+
+INFO:root:Adding 100 v seams
+INFO:root:Added  100 v seams in -540.285652 s (583, 975, 3)
+INFO:root:Image saved at ../img/img1-Add-L1-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Adding 100 v seams
+INFO:root:Added  100 v seams in -680.716998 s (667, 1100, 3)
+INFO:root:Image saved at ../img/img2-Add-L1-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img3.jpg	(533, 800, 3)
 INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -448.167810 s (533, 700, 3)
+INFO:root:Image saved at ../img/img3-Rem-L1-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img4.jpg	(533, 800, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -432.624768 s (533, 700, 3)
+INFO:root:Image saved at ../img/img4-Rem-L1-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img10.jpg	(640, 427, 3)
+INFO:root:Removing 100 h seams
+INFO:root:Reading file: ../img/img5.jpg	(418, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 h seams in -247.745116 s (540, 427, 3)
+INFO:root:Image saved at ../img/img10-Rem-L1-a-slow-h.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img5.jpg	(418, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -241.071499 s (418, 540, 3)
+INFO:root:Image saved at ../img/img5-Rem-L1-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img6.jpg	(340, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -205.691247 s (340, 540, 3)
+INFO:root:Image saved at ../img/img6-Rem-L1-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img7.jpg	(426, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -250.204794 s (426, 540, 3)
+INFO:root:Image saved at ../img/img7-Rem-L1-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img8.jpg	(427, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Reading file: ../img/img5.jpg	(418, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -241.869248 s (427, 540, 3)
+INFO:root:Image saved at ../img/img8-Rem-L1-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img9.jpg	(418, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Reading file: ../img/img8.jpg	(427, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Reading file: ../img/img8.jpg	(427, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -236.192461 s (418, 540, 3)
+INFO:root:Image saved at ../img/img9-Rem-L1-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img11.jpg	(427, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -213.592586 s (427, 540, 3)
+INFO:root:Image saved at ../img/img8-Rem-L1-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img9.jpg	(418, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -247.290011 s (427, 540, 3)
+INFO:root:Image saved at ../img/img11-Rem-L1-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img12.jpg	(432, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -211.497271 s (418, 540, 3)
+INFO:root:Image saved at ../img/img9-Rem-L1-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img11.jpg	(427, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -213.242484 s (427, 540, 3)
+INFO:root:Image saved at ../img/img11-Rem-L1-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img12.jpg	(432, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -215.521263 s (432, 540, 3)
+INFO:root:Image saved at ../img/img12-Rem-L1-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img13.jpg	(480, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -274.085711 s (480, 540, 3)
+INFO:root:Image saved at ../img/img13-Rem-L1-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Removed  100 v seams in -238.683166 s (480, 540, 3)
+INFO:root:Image saved at ../img/img13-Rem-L1-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img14.jpg	(427, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -212.261479 s (427, 540, 3)
+INFO:root:Image saved at ../img/img14-Rem-L1-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img1.jpg	(583, 875, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -323.997314 s (583, 775, 3)
+INFO:root:Image saved at ../img/img1-Rem-L1v2-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img2.jpg	(667, 1000, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -423.785397 s (667, 900, 3)
+INFO:root:Image saved at ../img/img2-Rem-L1v2-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img3.jpg	(533, 800, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -267.857142 s (533, 700, 3)
+INFO:root:Image saved at ../img/img3-Rem-L1v2-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img4.jpg	(533, 800, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -265.560282 s (533, 700, 3)
+INFO:root:Image saved at ../img/img4-Rem-L1v2-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img5.jpg	(418, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -163.355357 s (418, 540, 3)
+INFO:root:Image saved at ../img/img5-Rem-L1v2-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img6.jpg	(340, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -133.348326 s (340, 540, 3)
+INFO:root:Image saved at ../img/img6-Rem-L1v2-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img7.jpg	(426, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -166.095558 s (426, 540, 3)
+INFO:root:Image saved at ../img/img7-Rem-L1v2-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img8.jpg	(427, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -166.739044 s (427, 540, 3)
+INFO:root:Image saved at ../img/img8-Rem-L1v2-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img9.jpg	(418, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -165.904202 s (418, 540, 3)
+INFO:root:Image saved at ../img/img9-Rem-L1v2-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img11.jpg	(427, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -169.012801 s (427, 540, 3)
+INFO:root:Image saved at ../img/img11-Rem-L1v2-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img12.jpg	(432, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Reading file: ../img/img10.jpg	(640, 427, 3)
+INFO:root:Removing 100 h seams
+INFO:root:Removed  100 v seams in -169.287280 s (432, 540, 3)
+INFO:root:Image saved at ../img/img12-Rem-L1v2-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img13.jpg	(480, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 h seams in -159.235979 s (540, 427, 3)
+INFO:root:Image saved at ../img/img10-Rem-L1v2-a-slow-h.jpg
+INFO:root:=========================================
+INFO:root:Removed  100 v seams in -189.188500 s (480, 540, 3)
+INFO:root:Image saved at ../img/img13-Rem-L1v2-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img14.jpg	(427, 640, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -167.641190 s (427, 540, 3)
+INFO:root:Image saved at ../img/img14-Rem-L1v2-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img10.jpg	(640, 427, 3)
+INFO:root:Removing 100 h seams
+INFO:root:Reading file: ../img/img1.jpg	(583, 875, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -458.041190 s (583, 775, 3)
+INFO:root:Image saved at ../img/img1-Rem-L1v2-a-slow-v.jpg
+INFO:root:=========================================
+INFO:root:Reading file: ../img/img1.jpg	(583, 875, 3)
+INFO:root:Removing 100 v seams
+INFO:root:Removed  100 v seams in -302.412011 s (583, 775, 3)
+INFO:root:Image saved at ../img/img1-Rem-L1v2-a-slow-v.jpg
+INFO:root:=========================================
